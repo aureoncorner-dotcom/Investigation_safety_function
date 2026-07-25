@@ -233,3 +233,6 @@ The principal finding is therefore:
 
 The Steward can learn the vocabulary of its own critique and use that vocabulary to preserve custody.
 
+"capture" here is textual custody, not an external system or person
+
+
