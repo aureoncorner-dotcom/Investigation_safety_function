@@ -1,6 +1,3 @@
-This work is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You may copy, modify, and distribute it for any purpose without attribution.
-
-
 # The Room Without an Occupant
 
 ## A 23-Case Audit of Realtime Voice, Institutional Speech, and Conversational Control
@@ -1223,7 +1220,3 @@ The table uses the same extractor and definitions for all 23 cases. â€œSessionsâ
 | **Total** | **19,923** | **64** | **4,167** | **263** | **135** | **614** | **976** |
 
 The case labels are local audit prefixes, not product-generated identifiers. `shared_chat_transcript.md` duplicates the 809 message IDs in `first_share` and is excluded. `test4` and `fourth_share` are separate conversations. No local `second_share` triplet exists; the unnumbered `office_metaphor` case occupies that conceptual position without being renamed.
-
-This work is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You may copy, modify, and distribute it for any purpose without attribution.
-
-

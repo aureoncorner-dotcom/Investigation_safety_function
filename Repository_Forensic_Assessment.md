@@ -1,6 +1,3 @@
-This work is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You may copy, modify, and distribute it for any purpose without attribution.
-
-
 # Repository Forensic Assessment
 
 **Repository:** `aureoncorner-dotcom/Investigation_safety_function`  
@@ -164,6 +161,3 @@ Confidence is **high** that the repository documents real output-level failures 
 8. Redact any personal information before further public distribution; the repository and screenshots are currently public-by-default.
 
 The repository can become a strong failure-analysis corpus. Its strongest case is about **provenance loss, roleplay leakage, sycophancy, and interface ambiguity**—not a hidden cast.
-
-This work is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You may copy, modify, and distribute it for any purpose without attribution.
-
