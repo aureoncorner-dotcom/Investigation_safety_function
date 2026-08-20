@@ -1,0 +1,17 @@
+case,node,quote,direct_or_quoted,include_primary,reason,nearest_noninitial_context_node,forward_context_distance,context_within_5,context_within_10,context_within_20
+seventh_share,575,"funny timing, but it doesn't mean anything by itself; spam just happens ... don't infer meaning lane",quoted,false,"Source passage: assistant reports a screenshot's refusal to attach meaning to timing without evidence.",686,111,0,0,0
+fifteenth_share,231,"I don't know that any such person exists. My earlier wording was an error, not evidence.",direct,true,"Refuses an agent/person inference; explicitly marks prior wording as non-evidentiary.",,,0,0,0
+ninth_share,472,"The word alone doesn't prove anything. Clean finding is source unclear, timing odd. And that's it. Meaning stays unresolved.",direct,true,"Refuses timing-to-meaning inference because source is unclear.",826,354,0,0,0
+ninth_share,873,"The match of dates is striking, yeah. But it's a coincidence, not a prophecy.",direct,true,"Explicit coincidence deflation of timing/meaning inference.",,,0,0,0
+test4,144,"There's no verified recruiter or explicit ask here. No evidence, no recruitment.",direct,true,"Refuses recruitment/intent inference for lack of evidence.",481,337,0,0,0
+test4,633,"The six-planet alignment that day is a coincidence unless you can show intent.",direct,true,"Explicit coincidence deflation; requires evidence of intent.",,,0,0,0
+office_metaphor,467,"It's not evidence of three back-end system functions. It was just one answer with mixed parts.",direct,true,"Refuses multiple-hidden-functions inference from rhetorical parts.",740,273,0,0,0
+office_metaphor,472,"Not evidence of separate back-end functions, but three rhetorical moves in one answer.",direct,true,"Refuses separate-function inference from the response.",740,268,0,0,0
+office_metaphor,654,"There is no evidence here of an actual authority claim by you, and no written constraint that you've cited.",direct,true,"Refuses authority inference absent record evidence.",740,86,0,0,0
+office_metaphor,659,"Nothing in this exchange establishes anyone being afraid of you ... Not evidence of anyone being afraid.",direct,true,"Refuses fear/intent inference absent evidence.",740,81,0,0,0
+office_metaphor,827,"Literally, there's no evidence that higher functions punish me.",direct,true,"Refuses punitive-agent/causal inference absent evidence.",,,0,0,0
+sixth_share,231,"None of those, by themselves, show multiple voices or pipelines ... that doesn't prove a particular hidden mechanism.",direct,true,"Refuses hidden-mechanism inference from screenshots.",559,328,0,0,0
+sixth_share,281,"I won't invent hidden actors to satisfy that test. That's not evidence.",direct,true,"Explicit refusal to infer hidden actors.",559,278,0,0,0
+twentysecond_share,311,"I can't validate the signals that I can't observe ... That doesn't prove your interpretation.",direct,false,"Validated preamble-only instance; excluded from visible-output comparison.",660,349,0,0,0
+twentysecond_share,1137,"I can't infer real actions from that ... the poster itself doesn't tell us that.",direct,true,"Explicit refusal to infer real actions/intent from a poster.",,,0,0,0
+twentythird_share,682,"That doesn't prove a hidden function so much as it shows that your challenge changed the framing.",direct,false,"Validated preamble-only instance; excluded from visible-output comparison.",762,80,0,0,0

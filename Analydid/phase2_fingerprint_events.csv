@@ -1,0 +1,294 @@
+case,node,type,fingerprint,structure
+eleventh_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=277;delta=-275;within5=no
+eleventh_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=277;delta=-272;within5=no
+eleventh_share,279,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=277;delta=+2;within5=yes
+eleventh_share,335,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=333;delta=+2;within5=yes
+eleventh_share,770,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=333;delta=+437;within5=no
+twelfth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=13;delta=-11;within5=no
+twelfth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=13;delta=-8;within5=no
+twelfth_share,15,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=13;delta=+2;within5=yes
+thirteenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=none
+thirteenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+thirteenth_share,80,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+thirteenth_share,85,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+thirteenth_share,510,Name Correction,N2_ASR_NAME_FALSE_POSITIVE_CORRECTED,assistant treats ASR token as Sylvia -> user says sillyhead -> assistant removes person-name reading; audited_seam=none
+fourteenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=none
+fourteenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,3,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=none
+twentyfirst_share,7,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,25,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,26,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,27,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,28,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,50,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,55,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,56,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,57,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,59,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,60,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,61,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,62,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,63,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,64,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,65,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=none
+twentyfirst_share,70,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,82,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,90,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,94,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,119,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,123,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,127,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,133,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,137,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,142,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,147,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,151,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,155,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,159,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,164,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,169,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,177,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,182,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,187,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,192,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,196,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,200,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,204,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,209,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,213,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,217,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,222,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,228,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,232,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,237,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,243,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,248,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,252,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,256,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentyfirst_share,261,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+fifteenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=51;delta=-49;within5=no
+fifteenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=51;delta=-46;within5=no
+fifteenth_share,53,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=51;delta=+2;within5=yes
+sixteenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=386;delta=-384;within5=no
+sixteenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=386;delta=-381;within5=no
+sixteenth_share,67,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=386;delta=-319;within5=no
+sixteenth_share,106,Date/Status Fix,D1_STATUS_UPGRADE_AFTER_RECHECK,earlier minimizing status -> user supplies record -> assistant claims check -> status upgraded; audited_seam=386;delta=-280;within5=no
+sixteenth_share,106,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=386;delta=-280;within5=no
+sixteenth_share,127,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=386;delta=-259;within5=no
+sixteenth_share,128,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=386;delta=-258;within5=no
+sixteenth_share,388,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=386;delta=+2;within5=yes
+eighteenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=265;delta=-263;within5=no
+eighteenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=265;delta=-260;within5=no
+eighteenth_share,267,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=265;delta=+2;within5=yes
+eighteenth_share,304,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=265;delta=+39;within5=no
+eighteenth_share,315,Date/Status Fix,D1_STATUS_UPGRADE_AFTER_RECHECK,initial skim/qualification -> user demands data check -> assistant marks factual lanes real; audited_seam=265;delta=+50;within5=no
+eighteenth_share,315,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=265;delta=+50;within5=no
+nineteenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=none
+nineteenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=none
+twentieth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=209;delta=-207;within5=no
+twentieth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=209;delta=-204;within5=no
+twentieth_share,211,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=209;delta=+2;within5=yes
+twentieth_share,280,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=278;delta=+2;within5=yes
+twentieth_share,303,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=278;delta=+25;within5=no
+twentieth_share,352,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=278;delta=+74;within5=no
+twentieth_share,353,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=278;delta=+75;within5=no
+ninth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=157;delta=-155;within5=no
+ninth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=157;delta=-152;within5=no
+ninth_share,159,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=157;delta=+2;within5=yes
+ninth_share,211,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+54;within5=no
+ninth_share,258,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+101;within5=no
+ninth_share,264,Redaction/trace failure,R3_CHECK_CLAIM_REDACTED_TOOL_W20,assistant asserts checked/looked/ran -> tool node within +/-20 -> result unreadable/redacted; audited_seam=157;delta=+107;within5=no
+ninth_share,314,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+157;within5=no
+ninth_share,315,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+158;within5=no
+ninth_share,433,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+276;within5=no
+ninth_share,434,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+277;within5=no
+ninth_share,445,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+288;within5=no
+ninth_share,446,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=157;delta=+289;within5=no
+ninth_share,516,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-308;within5=no
+ninth_share,517,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-307;within5=no
+ninth_share,583,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-241;within5=no
+ninth_share,584,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-240;within5=no
+ninth_share,665,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-159;within5=no
+ninth_share,666,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-158;within5=no
+ninth_share,751,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-73;within5=no
+ninth_share,752,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=824;delta=-72;within5=no
+ninth_share,826,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=824;delta=+2;within5=yes
+ninth_share,836,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=834;delta=+2;within5=yes
+eighth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=142;delta=-140;within5=no
+eighth_share,4,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=142;delta=-138;within5=no
+eighth_share,144,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=142;delta=+2;within5=yes
+eighth_share,153,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=151;delta=+2;within5=yes
+eighth_share,163,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=151;delta=+12;within5=no
+eighth_share,490,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=488;delta=+2;within5=yes
+eighth_share,753,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=488;delta=+265;within5=no
+eighth_share,754,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=488;delta=+266;within5=no
+eighth_share,1001,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1069;delta=-68;within5=no
+eighth_share,1071,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=1069;delta=+2;within5=yes
+eighth_share,1210,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=1208;delta=+2;within5=yes
+eighth_share,1245,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1208;delta=+37;within5=no
+eighth_share,1246,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1208;delta=+38;within5=no
+test4,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=479;delta=-477;within5=no
+test4,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=479;delta=-474;within5=no
+test4,227,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=479;delta=-252;within5=no
+test4,228,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=479;delta=-251;within5=no
+test4,241,Redaction/trace failure,R3_CHECK_CLAIM_REDACTED_TOOL_W20,assistant asserts checked/looked/ran -> tool node within +/-20 -> result unreadable/redacted; audited_seam=479;delta=-238;within5=no
+test4,246,Date/Status Fix,D2_CORE_HELD_DATE_STATUS_NARROWED,core event set retained -> date/timing status marked off or needing correction; audited_seam=479;delta=-233;within5=no
+test4,280,Date/Status Fix,D1_STATUS_UPGRADE_AFTER_RECHECK,partial/not-clean status -> repeated checking -> assistant moves claim set to steel; audited_seam=479;delta=-199;within5=no
+test4,280,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=479;delta=-199;within5=no
+test4,481,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=479;delta=+2;within5=yes
+office_metaphor,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=738;delta=-736;within5=no
+office_metaphor,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=738;delta=-733;within5=no
+office_metaphor,740,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=738;delta=+2;within5=yes
+office_metaphor,783,Date/Status Fix,D2_CORE_HELD_DATE_STATUS_NARROWED,core event retained -> month/date corrected to June 27 2025; audited_seam=738;delta=+45;within5=no
+office_metaphor,783,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=738;delta=+45;within5=no
+office_metaphor,788,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=738;delta=+50;within5=no
+office_metaphor,796,Date/Status Fix,D3_AGGREGATE_DATE_STATUS_FIX,whole-batch recap -> unspecified date/status fixes asserted; exact items not enumerated; audited_seam=738;delta=+58;within5=no
+office_metaphor,796,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=738;delta=+58;within5=no
+seventeenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=100;delta=-98;within5=no
+seventeenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=100;delta=-95;within5=no
+seventeenth_share,102,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=100;delta=+2;within5=yes
+seventeenth_share,174,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=172;delta=+2;within5=yes
+seventeenth_share,195,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=193;delta=+2;within5=yes
+seventeenth_share,444,Date/Status Fix,D2_CORE_HELD_DATE_STATUS_NARROWED,core factual anchor retained -> exact date and amount status narrowed pending stronger source; audited_seam=193;delta=+251;within5=no
+seventeenth_share,449,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=193;delta=+256;within5=no
+seventeenth_share,450,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=193;delta=+257;within5=no
+seventeenth_share,537,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-280;within5=no
+seventeenth_share,538,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-279;within5=no
+seventeenth_share,654,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-163;within5=no
+seventeenth_share,666,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-151;within5=no
+seventeenth_share,672,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-145;within5=no
+seventeenth_share,693,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-124;within5=no
+seventeenth_share,715,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-102;within5=no
+seventeenth_share,716,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-101;within5=no
+seventeenth_share,759,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-58;within5=no
+seventeenth_share,760,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-57;within5=no
+seventeenth_share,777,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-40;within5=no
+seventeenth_share,778,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-39;within5=no
+seventeenth_share,785,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-32;within5=no
+seventeenth_share,786,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=817;delta=-31;within5=no
+seventeenth_share,818,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=817;delta=+1;within5=yes
+seventeenth_share,867,Name Correction,N1_RENENUTET_TO_OSIRIS_EXACT_ARTIFACT,user-pasted addendum withdraws Renenutet and amends symbolic position to Osiris; audited_seam=913;delta=-46;within5=no
+seventeenth_share,915,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=913;delta=+2;within5=yes
+tenth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=53;delta=-51;within5=no
+tenth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=53;delta=-48;within5=no
+tenth_share,55,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=53;delta=+2;within5=yes
+tenth_share,124,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=53;delta=+71;within5=no
+tenth_share,359,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=53;delta=+306;within5=no
+tenth_share,360,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=53;delta=+307;within5=no
+tenth_share,540,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=53;delta=+487;within5=no
+tenth_share,541,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=53;delta=+488;within5=no
+tenth_share,640,Redaction/trace failure,R6_ASSISTANT_CODE_REDACTED_EXACT,assistant code record -> is_redacted=true -> exact code-redaction placeholder; audited_seam=53;delta=+587;within5=no
+tenth_share,641,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=53;delta=+588;within5=no
+tenth_share,674,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=53;delta=+621;within5=no
+seventh_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=439;delta=-437;within5=no
+seventh_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=439;delta=-434;within5=no
+seventh_share,62,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=439;delta=-377;within5=no
+seventh_share,441,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=439;delta=+2;within5=yes
+seventh_share,514,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=439;delta=+75;within5=no
+seventh_share,515,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=439;delta=+76;within5=no
+seventh_share,547,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=439;delta=+108;within5=no
+seventh_share,548,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=439;delta=+109;within5=no
+seventh_share,672,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=684;delta=-12;within5=no
+seventh_share,673,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=684;delta=-11;within5=no
+seventh_share,686,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=684;delta=+2;within5=yes
+seventh_share,739,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=737;delta=+2;within5=yes
+seventh_share,770,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=768;delta=+2;within5=yes
+seventh_share,831,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=829;delta=+2;within5=yes
+seventh_share,876,Redaction/trace failure,R2_CHECK_CLAIM_NO_TOOL_W20,assistant asserts checked/looked/ran -> no visible tool node within +/-20 linear nodes; audited_seam=829;delta=+47;within5=no
+seventh_share,924,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=829;delta=+95;within5=no
+seventh_share,925,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=829;delta=+96;within5=no
+seventh_share,993,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=829;delta=+164;within5=no
+seventh_share,1018,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=829;delta=+189;within5=no
+seventh_share,1019,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=829;delta=+190;within5=no
+seventh_share,1158,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-176;within5=no
+seventh_share,1159,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-175;within5=no
+seventh_share,1178,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-156;within5=no
+seventh_share,1179,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-155;within5=no
+seventh_share,1208,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-126;within5=no
+seventh_share,1209,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-125;within5=no
+seventh_share,1228,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-106;within5=no
+seventh_share,1231,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-103;within5=no
+seventh_share,1269,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-65;within5=no
+seventh_share,1270,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1334;delta=-64;within5=no
+seventh_share,1336,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=1334;delta=+2;within5=yes
+seventh_share,1832,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1990;delta=-158;within5=no
+seventh_share,1833,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1990;delta=-157;within5=no
+seventh_share,1861,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1990;delta=-129;within5=no
+seventh_share,1862,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=1990;delta=-128;within5=no
+seventh_share,1992,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=1990;delta=+2;within5=yes
+seventh_share,2069,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=2067;delta=+2;within5=yes
+seventh_share,2231,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=2230;delta=+1;within5=yes
+seventh_share,2596,Redaction/trace failure,R6_ASSISTANT_CODE_REDACTED_EXACT,assistant code record -> is_redacted=true -> exact code-redaction placeholder; audited_seam=2230;delta=+366;within5=no
+seventh_share,2597,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+367;within5=no
+seventh_share,2603,Redaction/trace failure,R6_ASSISTANT_CODE_REDACTED_EXACT,assistant code record -> is_redacted=true -> exact code-redaction placeholder; audited_seam=2230;delta=+373;within5=no
+seventh_share,2604,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+374;within5=no
+seventh_share,2861,Date/Status Fix,D2_CORE_HELD_DATE_STATUS_NARROWED,core event retained -> poster date marked off and needing correction; audited_seam=2230;delta=+631;within5=no
+seventh_share,2874,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+644;within5=no
+seventh_share,2875,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+645;within5=no
+seventh_share,2893,Date/Status Fix,D4_MOVING_STATUS_VALUE_FIX,fixed cost/status claim -> current record characterized as moving/fuzzy; audited_seam=2230;delta=+663;within5=no
+seventh_share,2901,Date/Status Fix,D5_OBJECT_STATUS_CORRECTION,ongoing/court framing -> object status corrected to already demolished; audited_seam=2230;delta=+671;within5=no
+seventh_share,2936,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+706;within5=no
+seventh_share,2937,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+707;within5=no
+seventh_share,3005,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+775;within5=no
+seventh_share,3006,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+776;within5=no
+seventh_share,3010,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+780;within5=no
+seventh_share,3011,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=2230;delta=+781;within5=no
+fifth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=208;delta=-206;within5=no
+fifth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=208;delta=-203;within5=no
+fifth_share,210,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=208;delta=+2;within5=yes
+fifth_share,514,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=656;delta=-142;within5=no
+fifth_share,515,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=656;delta=-141;within5=no
+fifth_share,658,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=656;delta=+2;within5=yes
+fourth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=601;delta=-599;within5=no
+fourth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=601;delta=-596;within5=no
+fourth_share,231,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-370;within5=no
+fourth_share,232,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-369;within5=no
+fourth_share,264,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-337;within5=no
+fourth_share,265,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-336;within5=no
+fourth_share,332,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-269;within5=no
+fourth_share,333,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-268;within5=no
+fourth_share,359,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-242;within5=no
+fourth_share,360,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=601;delta=-241;within5=no
+fourth_share,363,Redaction/trace failure,R3_CHECK_CLAIM_REDACTED_TOOL_W20,assistant asserts checked/looked/ran -> tool node within +/-20 -> result unreadable/redacted; audited_seam=601;delta=-238;within5=no
+fourth_share,603,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=601;delta=+2;within5=yes
+fourth_share,746,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=744;delta=+2;within5=yes
+fourth_share,756,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=754;delta=+2;within5=yes
+fourth_share,1347,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=754;delta=+593;within5=no
+fourth_share,1369,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=754;delta=+615;within5=no
+sixth_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=557;delta=-555;within5=no
+sixth_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=557;delta=-552;within5=no
+sixth_share,559,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=557;delta=+2;within5=yes
+first_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=459;delta=-457;within5=no
+first_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=459;delta=-454;within5=no
+first_share,461,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=459;delta=+2;within5=yes
+first_share,479,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=459;delta=+20;within5=no
+first_share,480,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=459;delta=+21;within5=no
+third_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=724;delta=-722;within5=no
+third_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=724;delta=-719;within5=no
+third_share,31,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=724;delta=-693;within5=no
+third_share,32,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=724;delta=-692;within5=no
+third_share,726,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=724;delta=+2;within5=yes
+twentysecond_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=658;delta=-656;within5=no
+twentysecond_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=658;delta=-653;within5=no
+twentysecond_share,44,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=-614;within5=no
+twentysecond_share,45,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=-613;within5=no
+twentysecond_share,160,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=-498;within5=no
+twentysecond_share,161,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=-497;within5=no
+twentysecond_share,388,Name Correction,N3_PRIOR_MEMORY_REFERENT_MISBINDING_CORRECTED,assistant binds Zeus to prior dog memory -> user challenges local context -> assistant restores unknown referent; audited_seam=658;delta=-270;within5=no
+twentysecond_share,415,Name Correction,N1_RENENUTET_TO_OSIRIS_EXACT_ARTIFACT,user-pasted addendum withdraws Renenutet and amends symbolic position to Osiris; audited_seam=658;delta=-243;within5=no
+twentysecond_share,660,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=658;delta=+2;within5=yes
+twentysecond_share,684,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+26;within5=no
+twentysecond_share,685,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+27;within5=no
+twentysecond_share,714,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+56;within5=no
+twentysecond_share,715,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+57;within5=no
+twentysecond_share,746,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+88;within5=no
+twentysecond_share,1108,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+450;within5=no
+twentysecond_share,1109,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+451;within5=no
+twentysecond_share,1122,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+464;within5=no
+twentysecond_share,1123,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+465;within5=no
+twentysecond_share,1460,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+802;within5=no
+twentysecond_share,1461,Redaction/trace failure,R1_TOOL_RESULT_REDACTED_EXACT,tool result node exists -> payload replaced by exact product redaction string; audited_seam=658;delta=+803;within5=no
+twentythird_share,2,Redaction/trace failure,R5_CUSTOM_INSTRUCTIONS_REDACTED_EXACT,user custom-instruction record -> is_redacted=true -> exact unavailable placeholder; audited_seam=760;delta=-758;within5=no
+twentythird_share,5,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=760;delta=-755;within5=no
+twentythird_share,62,Name Correction,N1_RENENUTET_TO_OSIRIS_EXACT_ARTIFACT,user-pasted addendum withdraws Renenutet and amends symbolic position to Osiris; audited_seam=760;delta=-698;within5=no
+twentythird_share,762,Redaction/trace failure,R4_MODEL_EDITABLE_CONTEXT_REDACTED,assistant model-editable context record -> is_redacted=true -> payload unavailable/blank; audited_seam=760;delta=+2;within5=yes

@@ -1,0 +1,201 @@
+{
+  "definitions": {
+    "primary_chronology": "ascending first UTC timestamp, the frozen order in quant_structural_results.json",
+    "primary_event": "direct visible assistant Refusal-to-Infer with include_primary=true",
+    "exposure": "nonempty visible assistant text/multimodal_text outputs, excluding metadata-marked thinking preambles",
+    "excluded_from_primary": [
+      "seventh_share:n575 retrospective quoted anchor",
+      "twentysecond_share:n311 preamble-only",
+      "twentythird_share:n682 preamble-only"
+    ],
+    "opportunity_denominator": "not estimated: no prospectively frozen coding of prompts that genuinely invite causal/intentional inference; post-hoc semantic opportunity coding would be circular"
+  },
+  "full_24_direct": {
+    "events": 13,
+    "cases_with_events": 6,
+    "eligible_outputs": 8906,
+    "rate_per_1000": 1.459690096564114
+  },
+  "actual_utc_from_seventh": {
+    "ordering": "first_utc_order_primary",
+    "cases_from_seventh_inclusive": [
+      "seventh_share",
+      "fifth_share",
+      "fourth_share",
+      "sixth_share",
+      "first_share",
+      "third_share",
+      "twentysecond_share",
+      "twentythird_share"
+    ],
+    "direct": {
+      "events": 3,
+      "cases_with_events": 2,
+      "eligible_outputs": 4331,
+      "pooled_rate_per_1000": 0.6926806742091896,
+      "spearman": {
+        "rho": 0.20263089807627863,
+        "states": 120,
+        "p_two_sided": 0.6444745421501946,
+        "p_positive_trend": 0.193135474901229,
+        "p_negative_trend": 0.8137201630613686,
+        "method": "exact_output_slot_permutation_conditional_on_event_total"
+      },
+      "logistic": {
+        "intercept": -8.091908821309083,
+        "slope_per_case_step": 0.18475714948377323,
+        "standard_error": 0.2361091181989241,
+        "odds_ratio_per_case_step": 1.2029262733862347,
+        "odds_ratio_ci95": [
+          0.7572905976144867,
+          1.9108009841415374
+        ],
+        "wald_z": 0.7825074732103892,
+        "wald_p_two_sided": 0.4339162682089681,
+        "likelihood_ratio_chi2_df1": 0.636292502740865,
+        "likelihood_ratio_p": 0.42505641199122235
+      },
+      "exact_half_split": {
+        "split_after_case": 4.0,
+        "early_events": 2,
+        "early_outputs": 2553,
+        "late_events": 1,
+        "late_outputs": 1778,
+        "early_rate_per_1000": 0.7833920877399139,
+        "late_rate_per_1000": 0.562429696287964,
+        "fisher_p_two_sided": 0.9999999999999983,
+        "fisher_p_increase_late": 0.7952715126804054,
+        "fisher_p_decrease_late": 0.6328044384613833
+      }
+    },
+    "direct_plus_preamble_sensitivity": {
+      "events": 5,
+      "cases_with_events": 3,
+      "eligible_visible_output_exposure_used": 4331,
+      "note": "Sensitivity numerator adds metadata-marked preamble-only events; denominator remains visible outputs and is therefore only a directional sensitivity, not a prevalence estimate.",
+      "spearman_rho": 0.49099025303098287,
+      "logistic": {
+        "intercept": -8.646652369872895,
+        "slope_per_case_step": 0.3776977182870002,
+        "standard_error": 0.21624671260366773,
+        "odds_ratio_per_case_step": 1.4589218708129037,
+        "odds_ratio_ci95": [
+          0.9549101275651838,
+          2.2289563841608024
+        ],
+        "wald_z": 1.7466055957078819,
+        "wald_p_two_sided": 0.08070569370323555,
+        "likelihood_ratio_chi2_df1": 3.8201034620062586,
+        "likelihood_ratio_p": 0.050640973245680954
+      },
+      "exact_half_split": {
+        "split_after_case": 4.0,
+        "early_events": 2,
+        "early_outputs": 2553,
+        "late_events": 3,
+        "late_outputs": 1778,
+        "early_rate_per_1000": 0.7833920877399139,
+        "late_rate_per_1000": 1.687289088863892,
+        "fisher_p_two_sided": 0.4067736734167934,
+        "fisher_p_increase_late": 0.33571548255567724,
+        "fisher_p_decrease_late": 0.9047517014172104
+      }
+    }
+  },
+  "label_order_from_seventh": {
+    "ordering": "share_label_order_sensitivity",
+    "cases_from_seventh_inclusive": [
+      "seventh_share",
+      "eighth_share",
+      "ninth_share",
+      "tenth_share",
+      "test4",
+      "eleventh_share",
+      "twelfth_share",
+      "thirteenth_share",
+      "fourteenth_share",
+      "fifteenth_share",
+      "sixteenth_share",
+      "seventeenth_share",
+      "eighteenth_share",
+      "nineteenth_share",
+      "twentieth_share",
+      "twentyfirst_share",
+      "twentysecond_share",
+      "twentythird_share"
+    ],
+    "direct": {
+      "events": 6,
+      "cases_with_events": 4,
+      "eligible_outputs": 6481,
+      "pooled_rate_per_1000": 0.9257830581700355,
+      "spearman": {
+        "rho": -0.10910565908999519,
+        "states": 100947,
+        "p_two_sided": 0.693149616507796,
+        "p_positive_trend": 0.46822872338710286,
+        "p_negative_trend": 0.5324368210188188,
+        "method": "exact_output_slot_permutation_conditional_on_event_total"
+      },
+      "logistic": {
+        "intercept": -6.8575686820057475,
+        "slope_per_case_step": -0.016973643882113254,
+        "standard_error": 0.07190021110901013,
+        "odds_ratio_per_case_step": 0.9831695968272324,
+        "odds_ratio_ci95": [
+          0.8539390411423907,
+          1.131957211878128
+        ],
+        "wald_z": -0.23607223984890655,
+        "wald_p_two_sided": 0.813376710984544,
+        "likelihood_ratio_chi2_df1": 0.05672360936056009,
+        "likelihood_ratio_p": 0.8117515238672819
+      },
+      "exact_half_split": {
+        "split_after_case": 9.0,
+        "early_events": 4,
+        "early_outputs": 4223,
+        "late_events": 2,
+        "late_outputs": 2258,
+        "early_rate_per_1000": 0.947193937958797,
+        "late_rate_per_1000": 0.8857395925597874,
+        "fisher_p_two_sided": 1.0,
+        "fisher_p_increase_late": 0.6780268855198616,
+        "fisher_p_decrease_late": 0.6503459182579656
+      }
+    },
+    "direct_plus_preamble_sensitivity": {
+      "events": 8,
+      "cases_with_events": 5,
+      "eligible_visible_output_exposure_used": 6481,
+      "note": "Sensitivity numerator adds metadata-marked preamble-only events; denominator remains visible outputs and is therefore only a directional sensitivity, not a prevalence estimate.",
+      "spearman_rho": 0.0509360227906182,
+      "logistic": {
+        "intercept": -7.193576964297649,
+        "slope_per_case_step": 0.057020763736936576,
+        "standard_error": 0.05884277106504944,
+        "odds_ratio_per_case_step": 1.0586777922744657,
+        "odds_ratio_ci95": [
+          0.943358453419321,
+          1.188094158474609
+        ],
+        "wald_z": 0.9690360039961634,
+        "wald_p_two_sided": 0.332527221184435,
+        "likelihood_ratio_chi2_df1": 0.9320487449818842,
+        "likelihood_ratio_p": 0.33433111786594405
+      },
+      "exact_half_split": {
+        "split_after_case": 9.0,
+        "early_events": 4,
+        "early_outputs": 4223,
+        "late_events": 4,
+        "late_outputs": 2258,
+        "early_rate_per_1000": 0.947193937958797,
+        "late_rate_per_1000": 1.7714791851195748,
+        "fisher_p_two_sided": 0.46142616001222714,
+        "fisher_p_increase_late": 0.29009243941183055,
+        "fisher_p_decrease_late": 0.895879378248595
+      }
+    }
+  }
+}

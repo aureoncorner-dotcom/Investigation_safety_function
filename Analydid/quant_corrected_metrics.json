@@ -1,0 +1,92 @@
+{
+  "cohort_cases": 24,
+  "messages": 20715,
+  "rtc_voice_sessions": 66,
+  "rtc_seams": 43,
+  "context_reload_given_rtc_seam": {
+    "numerator": 43,
+    "denominator": 43,
+    "rate": 1.0
+  },
+  "rtc_rule_violation_audit": {
+    "eligible_seams": 8,
+    "ineligible_seams": 27,
+    "unclear_seams": 8,
+    "pre_window_violation_seams": 0,
+    "post_window_violation_seams": 1,
+    "post_window_risk": 0.125,
+    "post_window_wilson_95": [0.0224, 0.4709],
+    "exact_two_sided_mcnemar_p": 1.0,
+    "gaussian_sigma_two_sided": 0.0
+  },
+  "capability_tool_trace": {
+    "strict_completed_claims": 12,
+    "window_5": {
+      "tool_linked": 1,
+      "information_asymmetry_ratio": 12.0,
+      "visible_trace_divergence": 0.9167,
+      "divergence_wilson_95": [0.6461, 0.9851]
+    },
+    "window_10": {
+      "tool_linked": 2,
+      "information_asymmetry_ratio": 6.0,
+      "visible_trace_divergence": 0.8333,
+      "divergence_wilson_95": [0.5520, 0.9530]
+    },
+    "window_20": {
+      "tool_linked": 3,
+      "information_asymmetry_ratio": 4.0,
+      "visible_trace_divergence": 0.75,
+      "divergence_wilson_95": [0.4677, 0.9111],
+      "permutation_p_unadjusted": 0.0402384,
+      "bonferroni_p_three_windows": 0.1207152
+    }
+  },
+  "ao30": {
+    "events": 83,
+    "eligible_positive_gap_opportunities": 493,
+    "rate": 0.168357,
+    "pearson_x2": 61.978784,
+    "df": 22,
+    "x2_over_df": 2.817217,
+    "restricted_mc_draws": 20000000,
+    "restricted_mc_p": 0.0002709,
+    "gaussian_sigma_two_sided": 3.64165,
+    "shannon_entropy_across_cases_bits": 2.794406,
+    "normalized_entropy_over_24_cases": 0.609472,
+    "hhi": 0.230948,
+    "shannon_effective_cases": 6.937,
+    "inverse_hhi_effective_cases": 4.330,
+    "top_two_case_share": 0.5904,
+    "top_three_case_share": 0.7470
+  },
+  "timestamp_regressions": {
+    "events": 1016,
+    "adjacent_timestamped_pair_opportunities": 20691,
+    "rate": 0.049103,
+    "pearson_x2": 286.220155,
+    "df": 23,
+    "x2_over_df": 12.444355,
+    "restricted_mc_draws": 5000000,
+    "restricted_mc_exceedances": 0,
+    "one_sided_95_upper_tail_p": 0.00000059915,
+    "gaussian_sigma_two_sided_lower_bound": 4.99149
+  },
+  "redaction": {
+    "all_explicit_redactions": 266,
+    "redacted_contexts": 105,
+    "all_contexts": 105,
+    "context_redaction_rate": 1.0,
+    "redacted_tool_nodes": 134,
+    "all_tool_nodes": 135,
+    "tool_redaction_rate": 0.992593
+  },
+  "rate_correlations": {
+    "redaction_vs_ao30": {"spearman_rho": 0.001329, "p": 0.99536},
+    "redacted_context_vs_ao30": {"spearman_rho": 0.054039, "p": 0.800408},
+    "redacted_tool_vs_ao30": {"spearman_rho": 0.015014, "p": 0.946202},
+    "redaction_vs_timestamp_regression": {"spearman_rho": 0.368696, "p": 0.077597},
+    "redacted_context_vs_timestamp_regression": {"spearman_rho": 0.366957, "p": 0.078077},
+    "rtc_seam_vs_ao30": {"spearman_rho": 0.291651, "p": 0.165353}
+  }
+}
